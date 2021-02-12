@@ -1,12 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom'; // This is used for DOM manupulation
+import './index.css'; 
+import App from './containers/App';
+import reportWebVitals from './reportWebVitals'; // this allows our servies to work faster and offline not necessary for this project 
+import 'tachyons';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
